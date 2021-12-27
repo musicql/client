@@ -41,20 +41,7 @@ const HeaderMain = styled.h1`
       font-size: 1.875rem;
     
   `;
-const HeaderDsc = styled.p`
-    font-style: normal;
-    font-size: 1rem;
-  
-    line-height: 2rem;
-    text-align: center;
-    color: #b1b1b1;
-    margin:0;
-  
-   
-      font-size: 1.875rem;
-    padding-bottom: 2rem;
-    
-  `;
+
 const LayoutWrapper = styled.div`
       display: flex;
       flex-direction: column;
@@ -72,4 +59,4 @@ const Main = styled.main`
       margin: auto;
   `;
 
-export { HeaderContainer,Header,HeaderMain,HeaderDsc,LayoutWrapper,Main}
+export { HeaderContainer,Header,HeaderMain,LayoutWrapper,Main}

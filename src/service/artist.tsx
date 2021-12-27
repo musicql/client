@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { request, gql } from "graphql-request";
+import {  gql } from "graphql-request";
 import clint from "../utils/client";
 function useArtists() {
   return useQuery("artists", async () => {

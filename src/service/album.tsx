@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { request, gql } from "graphql-request";
+import {  gql } from "graphql-request";
 import client from "../utils/client";
 function useAlbums() {
   return useQuery("albums", async () => {

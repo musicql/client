@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import { useArtists } from '../../service/artist';
 import GeneralCard from '../GeneralCard';
 import { HomeSection, HomeSectionWrapper } from '../sharedStyled/styled';
